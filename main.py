@@ -25,17 +25,28 @@ from MyClasses import *
 # produkt.ile_produktu()
 # print(produkt.ile_kosztuje())
 
-# Zad5
-
-ciag = CiagiArytm.CiagiArytm()
-ciag.pobierzParametry(1, 3, 10)
-ciag.policzEl()
-ciag.pobierzElem(2, 3, 5)
-ciag.sumaEl()
-ciag.wyswietlElementy()
-
-
-
-
-
+# # Zad5
+#
+# ciag = CiagiArytm.CiagiArytm()
+# ciag.pobierzParametry(1, 3, 10)
+# ciag.policzEl()
+# ciag.pobierzElem(2, 3, 5)
+# ciag.sumaEl()
+# ciag.wyswietlElementy()
+#
+#
+#
+#
+# # Zad6
+#
+# robaczek = Robaczek.Robaczek()
+# robaczek.whereAmI()
+# robaczek.goUp(2)
+# robaczek.whereAmI()
+# robaczek.goRight(3)
+# robaczek.whereAmI()
+# robaczek.goDown(8)
+# robaczek.whereAmI()
+# robaczek.goLeft(10)
+# robaczek.whereAmI()
 
