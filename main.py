@@ -1,3 +1,6 @@
+import MyClasses
+
+from MyClasses import NaZakupy
 # # Zad1
 #
 # list = [0+x for x in range(1, 31, 1)]
@@ -8,12 +11,23 @@
 #
 # plik = open("liczyx2.txt", "r")
 # odczyt = plik.readlines()
-# print(odczyt)
-# Zad3
+#  print(odczyt)
+# # Zad3
+#
+# with open("tekst.txt", "w") as plik4:
+#     for newLine in range(10) :
+#         plik4.write("hehe\n")
+# with open("tekst.txt", "r") as plik4:
+#     for line in plik4:
+#         print(line, end="")
+# Zad4
 
-with open("tekst.txt", "w") as plik4:
-    for newLine in range(10) :
-        plik4.write("hehe\n")
-with open("tekst.txt", "r") as plik4:
-    for line in plik4:
-        print(line, end="")
+
+produkt =NaZakupy("Ziemniaki", 5, "Kg", 0.60)
+
+
+
+
+
+
+
