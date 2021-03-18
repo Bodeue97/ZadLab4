@@ -1,6 +1,5 @@
 import MyClasses
-
-from MyClasses import NaZakupy
+from MyClasses import *
 # # Zad1
 #
 # list = [0+x for x in range(1, 31, 1)]
@@ -21,9 +20,10 @@ from MyClasses import NaZakupy
 #     for line in plik4:
 #         print(line, end="")
 # Zad4
+# produkt = NaZakupy.NaZakupy("Ziemniaki", 5, "Kg", 0.60)
+# Zad5
 
 
-produkt =NaZakupy("Ziemniaki", 5, "Kg", 0.60)
 
 
 

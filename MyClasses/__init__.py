@@ -1,1 +1,1 @@
-__all__=("NaZakupy.py")
+__all__=["NaZakupy", "CiagiArytm"]
