@@ -2,21 +2,15 @@ class CiagiArytm:
     a1 = 0
     rozn = 0
     ile = 0
-    an = 0
     wyrazyCiagu = [a1]
-    for x in range (ile):
-        an = a1+rozn
-        wyrazyCiagu.append(an)
-        a1 = an
-
 
     def wyswietlElementy(self):
         print(self.wyrazyCiagu)
-    def pobierzElem(self, *elementy):
-
+    def pobierzElem(self, *n):
         pobraneElementy = []
-        pobraneElementy.append([x for x in elementy])
-        return pobraneElementy
+        for x in n:
+            pobraneElementy.append(self.wyrazyCiagu[x-1])
+        print(pobraneElementy)
     def pobierzParametry(self, a1, rozn, ile):
         self.a1 = a1
         self.rozn=rozn
@@ -26,7 +20,15 @@ class CiagiArytm:
         suma=0
         for x in self.wyrazyCiagu:
             suma +=x
-    def
+        print(suma)
+    def policzEl(self):
+        if self.rozn != 0:
+            a1 = self.a1
+            for x in range(self.ile):
+                an = a1 + self.rozn
+                self.wyrazyCiagu.append(an)
+                a1 = an
+
 
 
 
